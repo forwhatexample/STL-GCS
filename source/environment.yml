@@ -1,0 +1,13 @@
+name: stl-gcs
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.20
+  - numpy=1.26.4
+  - scipy=1.15.2
+  - matplotlib=3.10.9
+  - networkx=3.4.2
+  - pip
+  - pip:
+      - drake==1.26.0
+      - Mosek==11.0.27
